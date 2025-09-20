@@ -8,7 +8,7 @@ A simple and intuitive **React-based project management app** that lets you crea
 
 ## Description
 
-ProjectManager React is a front-end application built with React that provides project management functionality. It allows you to create, view, edit, and delete projects, assign tasks, and track progress. The app is designed to be simple, intuitive, modular, and easily extendable.
+**ProjectManager React** is a front-end application built with React that provides project management functionality. It allows you to create, view, edit, and delete projects, assign tasks, and track progress. The app is designed to be simple, intuitive, modular, and easily extendable.
 
 ---
 
@@ -28,7 +28,7 @@ ProjectManager React is a front-end application built with React that provides p
 - **React** – front-end and state management  
 - **Vite** – build tool / bundler for development and production  
 - **Tailwind CSS** – fast, composable styling  
-- Other tools: PostCSS, Tailwind configuration, npm/yarn package management  
+- **Other tools**: PostCSS, Tailwind configuration, npm/yarn package management  
 
 ---
 
@@ -36,31 +36,42 @@ ProjectManager React is a front-end application built with React that provides p
 
 ProjectManager_React/
 │
-├── public/ # static assets, HTML file
-├── src/ # React source code (components, pages, logic)
-├── tailwind.config.js # Tailwind CSS configuration
-├── postcss.config.js # PostCSS configuration
-├── vite.config.js # Vite configuration
-├── package.json # project dependencies and scripts
-└── README.md # project documentation (this file)
+├── public/             # static assets, HTML file
+├── src/                # React source code (components, pages, logic)
+├── tailwind.config.js  # Tailwind CSS configuration
+├── postcss.config.js   # PostCSS configuration
+├── vite.config.js      # Vite configuration
+├── package.json        # project dependencies and scripts
+└── README.md           # project documentation (this file)
 
---- 
+---
+
+## Setup and Usage
 
 ### Prerequisites
 
-- Node.js (recommended version ≥ X.Y.Z)  
+- Node.js (recommended version ≥ 16)  
 - npm or yarn  
 
 ### Installation
+
+```bash
 git clone https://github.com/federica-dincalci/ProjectManager_React.git
 cd ProjectManager_React
 npm install
+```
 
 ### Run in Development Mode
-npm run dev
 
-### Run for Production
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
 npm run build
+```
 
 ---
 
