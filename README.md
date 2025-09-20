@@ -34,6 +34,7 @@ A simple and intuitive **React-based project management app** that lets you crea
 
 ## Project Structure
 
+```bash
 ProjectManager_React/
 │
 ├── public/             # static assets, HTML file
@@ -43,6 +44,7 @@ ProjectManager_React/
 ├── vite.config.js      # Vite configuration
 ├── package.json        # project dependencies and scripts
 └── README.md           # project documentation (this file)
+```
 
 ---
 
